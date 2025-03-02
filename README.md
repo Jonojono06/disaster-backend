@@ -1,2 +1,1 @@
-# disaster-backend
- 
+Disaster Backend: A Node.js server that fetches real-time earthquake data from USGS, stores it in MongoDB Atlas, and broadcasts updates via Socket.IO. It also supports Web Push notifications using VAPID keys to alert subscribed clients about new earthquakes. Features a test endpoint (/test-notification) for triggering dummy earthquake alerts. Deployed on Render for scalable, cloud-based operation.
